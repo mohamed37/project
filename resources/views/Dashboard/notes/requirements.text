@@ -1,0 +1,12 @@
+
+
+scurity => middleware , laratrust , policy && gates
+register => verificationEmail, VerificationOTP, status(boolean) , socialite
+show => yajra datatables
+methods => oop , design pattern (Repository && chaine of Repository)
+
+vendors => signture
+products => qrcode 
+pageBuilder 
+settings => mapCollection 
+log , cache , session , cookies  

@@ -1,0 +1,11 @@
+
+1- <!-- edit json file that vs code by website without don't store in database -->
+
+2- when user login  //sourcecode https://github.com/zizhassan/laravel-ajax-login
+
+protected function sendLoginResponse(Request $request){
+
+$request->session()->regenerate();
+$this->clearLoginAttempts($request);
+return $this->authenticated($request, $this->guard()->user()) ? : "true";
+}
